@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BẢNG ĐIỀU KHIỂN HỆ THỐNG NHÀ THÔNG MINH</title>
+</head>
+<style> 
+button {
+  padding: 10px 20px; /* padding xác định khoảng cách giữa nội dung của button và bề mặt của nó */
+  margin: 10px; /*  thuộc tính margin xác định khoảng cách giữa 2 button */
+  background-color: lightblue;
+  /* color: white; */
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+button:active {
+  background-color: blue;
+}
+
+
+.container {
+  display: flex;
+}
+
+.box1, .box2 {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.body_menu {
+    width: 20%;
+    padding: 20px;
+}
+.body_panel{
+    width: 80%;
+}
+
+</style>
+<body>
+    <div id="navbar" style="display: flex; justify-content: space-between; border: 5px solid black; border-radius: 25px; margin-bottom: 10pt;">
+        <p style="text-align: left; margin-left: 20px;">Smart Home</p>
+        <p style="text-align: right; margin-right: 20px;">Đăng xuất</p>
+    </div>
+    <div id="body">
+        <div style="display: flex; border: 5px solid black; border-radius: 10px">
+            <div id="menu" style="width: 20%; border-right: 5px solid black;">
+            
+            </div>
+            <div id="panel" style="width: 70%; margin-left: 20px;">
+                <h1 align="center">BẢNG ĐIỀU KHIỂN HỆ THỐNG NHÀ THÔNG MINH</h1>
+                <h2>Điều khiển các thiết bị trong nhà</h2>
+                <div id="panel">
+                    <div id="div_1" class="container">
+                        <div id="ThietBi1" class="box1">
+                            <div id="div_btb_tb1">
+                                <label for="">Máy lạnh:</label> <br>
+                                <button>BẬT</button>
+                                <button>TẮT</button>
+                            </div>
+                        </div>
+                        <div id="ThietBi2" class="box2">
+                            <div id="div_btb_tb2">
+                                <label for="">Máy lạnh:</label> <br>
+                                <button>BẬT</button>
+                                <button>TẮT</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="div_2" class="container">
+                        <div id="ThietBi3" class="box1">
+                            <div id="div_btb_tb3">
+                                <label for="">Máy lạnh:</label> <br>
+                                <button>BẬT</button>
+                                <button>TẮT</button>
+                            </div>
+                        </div>
+                        <div id="ThietBi4" class="box2">
+                            <div id="div_btb_tb4">
+                                <label for="">Máy lạnh:</label> <br>
+                                <button>BẬT</button>
+                                <button>TẮT</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h2>Bảng theo dõi nhiệt độ - độ ẩm</h2>
+            </div>
+            </div>
+        </div>
+</body>
+</html>
